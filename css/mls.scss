@@ -9,6 +9,8 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+
+
 .contextual-region {
 	position: initial;
 }
@@ -81,6 +83,7 @@ ul.menu a.is-active {
 #header {
 
 	background: white;
+	min-height: 75px;
 
 	.region-header {
 		max-height: 125px;

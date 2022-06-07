@@ -67,6 +67,7 @@ ul.menu a.is-active {
 
 #header {
   background: white;
+  min-height: 75px;
 }
 #header .region-header {
   max-height: 125px;
