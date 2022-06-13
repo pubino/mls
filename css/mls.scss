@@ -9,7 +9,9 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-
+.paragraph--type--text-and-image, .paragraph--type--image-and-text {
+	display: flex;
+}
 
 .contextual-region {
 	position: initial;
