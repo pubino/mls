@@ -9,6 +9,15 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+tr td, tr th {
+	text-align: center;
+}
+
+tr {
+	border-bottom: none;
+	background: none;
+}
+
 .paragraph--type--paragraph-freeform img {
 	max-width: 300px;
 }
