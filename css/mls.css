@@ -3,6 +3,10 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+.paragraph--type--paragraph-freeform img {
+  max-width: 300px;
+}
+
 .paragraph--type--text-and-image, .paragraph--type--image-and-text {
   display: flex;
 }
