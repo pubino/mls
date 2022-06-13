@@ -66,8 +66,9 @@ ul.menu a.is-active {
 }
 
 #header {
-  background: white;
+  background: black;
   min-height: 75px;
+  color: #ff9900;
 }
 #header .region-header {
   max-height: 125px;
@@ -106,8 +107,8 @@ ul.menu a.is-active {
   padding: 0;
 }
 #header .site-branding__text a {
-  color: black;
-  border-bottom: 5px solid #E6863E;
+  color: #ff9900;
+  font-size: 64px;
 }
 @media only screen and (max-width: 851px) {
   #header .site-branding__text a {
