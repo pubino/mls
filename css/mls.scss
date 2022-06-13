@@ -87,10 +87,6 @@ ul.menu a.is-active {
 	color: #ff9900;
 
 	.region-header {
-		max-height: 125px;
-		@media only screen and (max-width: 851px) {
-			max-height: 200px;
-		}
 		padding: 1em 0 0 0;
 		display: flex;
 		flex-flow: column;
@@ -149,12 +145,15 @@ ul.menu a.is-active {
 	.site-branding__name {
 		font-size: 3em;
 	}
+
+	.site-branding__slogan {
+		color: white;
+	}
 	
 	#block-dateandlocation, .site-branding__slogan {
 		font-family: "Noto Sans", sans-serif;
 		font-size: 1.5em;
 		font-style: normal;
-		color: black;
 		text-align: center;
 		line-height: 2em;
 		padding-top: 5px;

@@ -71,16 +71,10 @@ ul.menu a.is-active {
   color: #ff9900;
 }
 #header .region-header {
-  max-height: 125px;
   padding: 1em 0 0 0;
   display: flex;
   flex-flow: column;
   text-align: center;
-}
-@media only screen and (max-width: 851px) {
-  #header .region-header {
-    max-height: 200px;
-  }
 }
 #header .region-header .block {
   margin: 0;
@@ -127,11 +121,13 @@ ul.menu a.is-active {
 #header .site-branding__name {
   font-size: 3em;
 }
+#header .site-branding__slogan {
+  color: white;
+}
 #header #block-dateandlocation, #header .site-branding__slogan {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.5em;
   font-style: normal;
-  color: black;
   text-align: center;
   line-height: 2em;
   padding-top: 5px;
