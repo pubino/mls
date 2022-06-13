@@ -9,6 +9,10 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+.field--type-image img {
+	max-width: 300px;
+}
+
 tr td, tr th {
 	text-align: center;
 }
@@ -24,6 +28,7 @@ tr {
 
 .paragraph--type--text-and-image, .paragraph--type--image-and-text {
 	display: flex;
+	align-items: center;
 }
 
 .contextual-region {
