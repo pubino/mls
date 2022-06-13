@@ -124,6 +124,7 @@ ul.menu a.is-active {
 @media only screen and (max-width: 851px) {
   #header .site-branding__text a {
     line-height: 1.2em;
+    font-size: 38px;
   }
 }
 #header .orfe-logo {
