@@ -216,6 +216,7 @@ ul.menu a.is-active {
 }
 
 #menubar {
+	background-color: #525355;
 	.region-menubar {
 		display: flex;
 		flex-flow: column nowrap;
@@ -288,6 +289,8 @@ table>caption{
 
 table{
 	table-layout: fixed;
+	display: block;
+	overflow: auto;
 	font-size: 1em;
 }
 

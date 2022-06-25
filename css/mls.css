@@ -179,6 +179,9 @@ ul.menu a.is-active {
   font-weight: bold;
   font-size: 1.3em;
 }
+#menubar {
+  background-color: #525355;
+}
 #menubar .region-menubar {
   display: flex;
   flex-flow: column nowrap;
@@ -241,6 +244,8 @@ table > caption {
 
 table {
   table-layout: fixed;
+  display: block;
+  overflow: auto;
   font-size: 1em;
 }
 
