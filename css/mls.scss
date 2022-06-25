@@ -5,9 +5,23 @@ $hdr-bg-image: initial;
 $menu-font-weight: normal;
 
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+
+	.block-page-title-block {
+		text-align: center;
+	}
+
+	.paragraph--type--text-and-image, .paragraph--type--image-and-text {
+		flex-flow: column;
+	}
+
+}
+
 
 .field--type-image img {
 	max-width: 300px;
