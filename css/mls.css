@@ -20,6 +20,10 @@ body {
   font-size: 1.1em;
 }
 
+#block-mainnavigation .content {
+  margin: 0;
+}
+
 .field--type-image img {
   max-width: 300px;
 }
