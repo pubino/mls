@@ -16,6 +16,10 @@ body {
   width: inherit;
 }
 
+#superfish-main-toggle {
+  font-size: 1.1em;
+}
+
 .field--type-image img {
   max-width: 300px;
 }
