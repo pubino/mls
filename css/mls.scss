@@ -32,6 +32,7 @@ body {
 
 #block-mainnavigation .content {
 	margin: 0;
+	font-weight: 700;
 }
 
 .field--type-image img {
@@ -227,7 +228,7 @@ ul.menu a.is-active {
 }
 
 #menubar {
-	background-color: #525355;
+	background-color: #424242;
 	.region-menubar {
 		display: flex;
 		flex-flow: column nowrap;
